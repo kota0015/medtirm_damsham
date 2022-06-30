@@ -54,6 +54,9 @@ table {
 /*-------------------------------------------------------
  My code starts from this line 
  --------------------------------------------------------*/
+ :root{
+    --brand-color:#f01fa0;
+ }
  body {  
 
 	line-height: 1;
@@ -107,7 +110,7 @@ a{
     
 }
 
-header{
+.navbar{
     display: flex;
     justify-content: space-between;
 }
@@ -197,3 +200,26 @@ main .welcomarea p{
 .under_header_img{
     width:40%;
 }
+footer{
+    background-color:var(--brand-color);
+    display: flex;
+    
+    justify-content: space-between;
+    
+   
+  
+}
+.fcontent {
+    
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.damsham{
+    padding-top: 60px;
+   color:black;
+}
+.time p{
+    padding-bottom: 10px;
+}
+
