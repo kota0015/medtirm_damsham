@@ -205,21 +205,26 @@ footer{
     display: flex;
     
     justify-content: space-between;
+    align-items: center;
     
    
   
 }
 .fcontent {
+    width: 33%;
+    text-align: center;
     
-    padding: 15px;
+    
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    border: #201717 solid 1px;
+
 }
 .damsham{
-    padding-top: 60px;
+    
    color:black;
 }
-.time p{
-    padding-bottom: 10px;
+.time {
+    padding: 10px;
 }
 
