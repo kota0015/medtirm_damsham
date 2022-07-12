@@ -276,12 +276,12 @@ nav ul li:active {
     z-index: -1;
 }
 
-main .welcomarea {
+ .welcomarea {
     color: aliceblue;
     text-align: center;
 }
 
-main .welcomarea p {
+.welcomarea p {
     color: rgb(240, 233, 152);
     font-size: 1.2em;
     padding: 1em 2em;
