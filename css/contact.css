@@ -154,7 +154,6 @@ body {
 	margin-right: auto;
 	padding-left: 16px;
 	padding-right: 16px;
-	
 }
 
 
@@ -165,7 +164,7 @@ body {
 h1 {
 	font-family: dam;
 	color: var(--brand-name);
-	font-size: 35px;
+	font-size: 50px;
 }
 
 h1 span {
@@ -289,53 +288,43 @@ nav ul li:active {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.welcomarea p span {
-	font-family: dam;
-	color: var(--brand-name);
-	font-size: 25px;
-}
-
 /*-------------------------------------------------------
- Style action button with Animation 
+Contact area 
  --------------------------------------------------------*/
-.button-box {
-	height: 60px;
+.contact-box{
+    /* background: white; */
+    color: black;
+    display: flex;
+    width:80%;
+    margin: 50px auto;
+    border: #fd11ae solid 5px;
+    /* background: white; */
+    margin-bottom: ;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding:30px 70px;
+    /* border: #e6e61d solid 5px; */
+}
+.contact-right{
+    background-color: var(--brand-color);
+    flex-basis: 40%;
+    padding:30px 70px;
+    /* border: #e6e61d solid 5px; */
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
 }
 
-.order-button {
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	padding: 5px 20px;
-	width: 35%;
-	font-family: dam;
-	font-size: 30px;
-	text-decoration: none;
-	text-align: center;
-	box-shadow: 3px 3px rgb(113, 110, 110);
-	background-color: #f93939;
-	color: black;
-	border-radius: .5em;
-	background-image: linear-gradient(to right, #f01fa0, rgb(226, 235, 219), rgb(226, 235, 219), #f01fa0);
-	background-size: 300%;
-	background-position: left;
-	transition: .5s background-position ease-in-out;
-	opacity: 0.8;
-}
 
-.order-button:hover {
-	background-image: linear-gradient(75deg, rgb(226, 235, 219), #f01fa0);
-	background-position: right;
-	background-size: 100%;
-}
 
-.order-button:active {
-	font-size: 28px;
-	box-shadow: none;
-}
 
-.under_header_img {
-	width: 40%;
-}
+
+
 
 /*-------------------------------------------------------
 section under banner area  (main content)
@@ -343,6 +332,7 @@ section under banner area  (main content)
 
 
 .main-content {
+    border: #e6e61d solid 10px;
 	background-color: rgb(247, 211, 236);
 	display: grid;
 	grid-auto-flow: row;
@@ -360,24 +350,6 @@ section under banner area  (main content)
 }
 
 
-.imgframe {
-
-	width: 300px;
-	height: 300px;
-	margin-bottom: 0.5em;
-}
-
-.itemimage {
-	width: 100%;
-	height: 300px;
-	object-fit: cover
-}
-
-.content h2 {
-	font-family: dam;
-	margin: 10px;
-	font-size: 1.5em;
-}
 
 .tips {
 
@@ -481,12 +453,7 @@ Media Query
 @media (min-width:970px) {
 
     
-   
-	
-	h1 span {
-		font-size: 6rem;
-		
-	}
+    
 
 	.main-content {
 		grid-auto-flow: column;
@@ -601,6 +568,6 @@ Media Query
 	}
 
 	.button-box {
-		margin-top: 10px;
+		margin-top: 30px;
 	}
 }
