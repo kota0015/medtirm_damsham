@@ -242,6 +242,11 @@ nav ul li a {
 
 }
 
+#menu li:nth-child(4) {
+    border: none;
+
+}
+
 nav ul li a:hover {
     color: rgb(50, 116, 11);
     text-decoration: underline;
@@ -374,8 +379,10 @@ section under banner area  (main content)
 }
 
 .tips {
+
     text-align: center;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #24739d;
     background-color: rgb(247, 211, 236);
@@ -399,30 +406,32 @@ footer {
 
 }
 
-.contain {
+.contain {}
 
-}
 .box {
-        
+
+
     padding: auto;
     text-align: center;
     height: 100px;
-   
-    margin-bottom: 10px;
+    
 
 }
-.box h3{
-    font-size:1.2rem;
-   margin-bottom: 5px;
+
+.box h3 {
+
+    font-size: 1.2rem;
+    padding-bottom: 10px;
     color: black;
+    padding:1rem;
 }
-hr{
+
+hr {
     width: 30%;
-    color:black;
-    height:5px ;
-    border:none;
-    background:red
-    
+    color: black;
+    height: 2px;
+    border: none;
+    background: rgba(207, 13, 13, 0.4)
 }
 
 
@@ -489,7 +498,7 @@ Media Query
         display: flex;
         margin: 0 auto;
         padding: 0 5px;
-        border: #24739d solid 4px;
+  
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -497,18 +506,20 @@ Media Query
     }
 
     .box {
-        
+
         padding: auto;
         text-align: center;
 
     }
-    .box h3{
-        font-size:1.2rem;
-       margin-bottom: 5px;
+
+    .box h3 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
         color: black;
-        
+
     }
-    hr{
+
+    hr {
         display: none;
     }
 
