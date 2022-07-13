@@ -226,27 +226,35 @@ nav ul {
 nav ul li {
 	/* background-color: #fff; */
 
-	padding: 5px 10px;
-	width: 20%;
+
+	width: 80px;
+	height: 40px;
 
 	padding-bottom: 0;
 	text-align: center;
 	/* border-right: 1px solid gray; */
-	margin-bottom: 5px;
+
 }
 
 nav ul li a {
+	margin: 0 10px;
+	display: block;
 	justify-items: center;
 	text-decoration: none;
 	color: black;
 	font-size: 1rem;
+	line-height: 40px;
+	align-items: center;
+
 
 }
 
-#menu li:nth-child(4) {
+#menu li:nth-child(1) {
 	border: none;
+	background-color: hsla(323, 57%, 72%, .7);
 
 }
+
 
 nav ul li a:hover {
 	color: rgb(50, 116, 11);
@@ -303,7 +311,7 @@ nav ul li:active {
 }
 
 .order-button {
-	-ms-transform: translate(-50%, -50%);
+	
 	transform: translate(-50%, -50%);
 	padding: 5px 20px;
 	width: 35%;
@@ -553,7 +561,7 @@ Media Query
 
 	nav ul li {
 		margin-right: 2em;
-		padding: 5px 10px;
+		/* padding: 5px 10px; */
 		width: 40%;
 		padding-bottom: 0;
 		text-align: center;
@@ -567,6 +575,11 @@ Media Query
 		text-decoration: none;
 		color: black;
 		font-size: 1.2rem;
+	}
+	#menu li:nth-child(1) {
+		border: none;
+		background-color: hsla(323, 57%, 72%, .7);
+	
 	}
 
 	nav ul li a:hover {
@@ -585,6 +598,10 @@ Media Query
 
 	nav ul li:active {
 		transform: translatex(0px) scale(1.1);
+	}
+	
+	#menu li:nth-child(1){
+		background-color:hsl(0, 0%, 100%,.8);
 	}
 
 	h1 {
