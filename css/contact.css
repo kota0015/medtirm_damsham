@@ -239,12 +239,10 @@ nav ul li a {
 
 }
 
-#menu li:nth-child(4) {
-	border: none;
-	background-color: hsla(323, 57%, 72%, .7);
-
+#contact{
+	color: #0e9024;
+	font-size: 1.2rem;
 }
-
 
 nav ul li a:hover {
 	color: rgb(50, 116, 11);
@@ -609,11 +607,7 @@ Media Query
 		transform: translatex(0px) scale(1.1);
 	}
 
-	#menu li:nth-child(4) {
-		background-color: hsl(0, 0%, 100%, .8);
-
-
-	}
+	
 
 
 	.welcomarea p {

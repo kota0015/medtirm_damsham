@@ -154,7 +154,6 @@ body {
 	margin-right: auto;
 	padding-left: 16px;
 	padding-right: 16px;
-	
 }
 
 
@@ -162,15 +161,6 @@ body {
 	padding: 0.5em;
 }
 
-h1 {
-	font-family: dam;
-	color: var(--brand-name);
-	font-size: 35px;
-}
-
-h1 span {
-	font-size: 45px;
-}
 
 a {
 	text-decoration: none;
@@ -249,7 +239,8 @@ nav ul li a {
 
 }
 
-#home{
+
+#menunav{
 	color: #0e9024;
 	font-size: 1.2rem;
 }
@@ -274,127 +265,78 @@ nav ul li:active {
 
 }
 
-.hero-imag-2 {
-	/* background-color: white; */
-	background: linear-gradient(45deg, hsla(0, 2%, 8%, 0.6), hsla(0, 0%, 100%, 0.35)), url(../image/background-img/background_img-720_x_480.jpg);
-
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	z-index: -1;
-}
-
-.welcomarea {
-	color: aliceblue;
-	text-align: center;
-}
-
-.welcomarea p {
-	color: rgb(240, 233, 152);
-	font-size: 1.2em;
-	padding: 1em 2em;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-}
-
-.welcomarea p span {
+h1 {
 	font-family: dam;
 	color: var(--brand-name);
-	font-size: 25px;
-}
-
-/*-------------------------------------------------------
- Style action button with Animation 
- --------------------------------------------------------*/
-.button-box {
-	height: 60px;
-}
-
-.order-button {
-	
-	transform: translate(-50%, -50%);
-	padding: 5px 20px;
-	width: 35%;
-	font-family: dam;
-	font-size: 30px;
-	text-decoration: none;
+	font-size: 45px;
+	margin: 30px;
 	text-align: center;
-	box-shadow: 3px 3px rgb(113, 110, 110);
-	background-color: #f93939;
-	color: black;
-	border-radius: .5em;
-	background-image: linear-gradient(to right, #f01fa0, rgb(226, 235, 219), rgb(226, 235, 219), #f01fa0);
-	background-size: 300%;
-	background-position: left;
-	transition: .5s background-position ease-in-out;
-	opacity: 0.8;
+	;
 }
-
-.order-button:hover {
-	background-image: linear-gradient(75deg, rgb(226, 235, 219), #f01fa0);
-	background-position: right;
-	background-size: 100%;
-}
-
-.order-button:active {
-	font-size: 28px;
-	box-shadow: none;
-}
-
-.under_header_img {
-	width: 40%;
-}
-
-/*-------------------------------------------------------
-section under banner area  (main content)
- --------------------------------------------------------*/
-
-
-.main-content {
-	background-color: rgb(247, 211, 236);
-	display: grid;
-	grid-auto-flow: row;
-	column-gap: .5em;
-
-}
-
-.content {
-	margin: 35px auto;
+.container p{
+	margin: auto;
+	padding-bottom: 30px;
+	width:400px;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+	text-align: center;}
+.img-frame {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
-}
-
-
-.imgframe {
-
-	width: 300px;
-	height: 300px;
-	margin-bottom: 0.5em;
-}
-
-.itemimage {
 	width: 100%;
+	margin: 2px 0;
+	padding: 20px 0;
+	/* background-color: #f995d6; */
+}
+.img-frame img{
+	margin: 0 25px;
+	width:300px;
 	height: 300px;
-	object-fit: cover
+	border: #138808 solid 3px;
+	background-color: azure;
 }
-
-.content h2 {
-	font-family: dam;
-	margin: 10px;
-	font-size: 1.5em;
-}
-
-.tips {
-
+.img-frame h3{
+	font-family:dam;
+	font-size: 1.4em;
+	color:#490981;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 10px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #24739d;
-	background-color: rgb(247, 211, 236);
+	margin-top: 5px;
+	
 }
+.menu-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.img-frame:nth-child(odd){
+	background-color: rgb(237, 148, 180);
+}
+	
+
+
+
+
+/*-------------------------------------------------------
+
+ --------------------------------------------------------*/
+
+
+.main-content {
+
+	background-color: rgb(247, 211, 236);
+
+
+}
+
+/*-------------------------------------------------------
+Menu Section 
+ --------------------------------------------------------*/
+
 
 
 /*-------------------------------------------------------
@@ -414,7 +356,6 @@ footer {
 
 }
 
-.contain {}
 
 .box {
 
@@ -431,14 +372,6 @@ footer {
 	padding-bottom: 10px;
 	color: black;
 	padding: 1rem;
-}
-
-hr {
-	width: 30%;
-	color: black;
-	height: 2px;
-	border: none;
-	background: rgba(207, 13, 13, 0.4)
 }
 
 
@@ -481,23 +414,27 @@ hr {
 }
 
 
-/* ------------------------------------
+/* -----------------------------------------------------------------------------
 Media Query
--------------------------------------- */
+--------------------------------------------------------------------------------- */
 
 @media (min-width:970px) {
 
-    
-   
-	
-	h1 span {
-		font-size: 6rem;
-		
+	.hero-imag-2 {
+		height: 300px;
+
+		/* padding-top: 50px; */
+
+
 	}
 
-	.main-content {
-		grid-auto-flow: column;
+	h1 {
+
+		font-size: 50px;
+
+
 	}
+
 
 	footer {
 		background-color: var(--brand-color);
@@ -533,9 +470,6 @@ Media Query
 		display: none;
 	}
 
-	.hero-imag-2 {
-		height: 600px;
-	}
 
 	nav ul {
 		display: flex;
@@ -575,7 +509,6 @@ Media Query
 		color: black;
 		font-size: 1.2rem;
 	}
-	
 
 	nav ul li a:hover {
 		color: rgb(50, 116, 11);
@@ -594,23 +527,27 @@ Media Query
 	nav ul li:active {
 		transform: translatex(0px) scale(1.1);
 	}
-	
+
 	
 
-	h1 {
-		font-size: 65px;
-	}
-
-	.hero-imag-2 {
-		padding-top: 150px;
-	}
 
 	.welcomarea p {
 
-		margin: 10px 100px;
+		margin: 10px 10px;
 	}
 
 	.button-box {
-		margin-top: 10px;
+		margin-top: 30px;
 	}
+
+
+	/*-------------------------------------------------------
+Menu Section
+ --------------------------------------------------------*/
+
+
+
+
+
+	
 }
