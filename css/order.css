@@ -239,7 +239,7 @@ nav ul li a {
 }
 
 
-#menunav {
+#order {
 	color: #0e9024;
 	font-size: 1.2rem;
 }
@@ -272,73 +272,10 @@ h1 {
 	font-size: 45px;
 	margin: 30px;
 	text-align: center;
-	;
-}
-
-.container {
-	padding: 0;
-	margin: 0;
-
-}
-
-.container p {
-	margin: auto;
-	padding-bottom: 30px;
-	width: 400px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.8em;
-	text-align: center;
-}
-
-.img-frame {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-
-	width: 100%;
-	margin: 2px 0;
-	padding: 20px 0;
-
-}
-
-.img-frame img {
-	margin: 0 25px;
-	width: 300px;
-	height: 300px;
-	border: #138808 solid 3px;
-	background-color: azure;
-}
-
-.img-frame img:hover {
-	cursor: pointer;
-}
-
-.img-frame h3 {
-	font-family: dam;
-	font-size: 1.4em;
-	color: #490981;
-	text-align: center;
-	margin-top: 5px;
-
-}
-
-.menu-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.img-frame:nth-child(odd) {
-	background-color: rgb(247, 221, 239);
+	
 }
 
 
-/*-------------------------------------------------------
-
- --------------------------------------------------------*/
 
 
 .main-content {
@@ -351,6 +288,7 @@ h1 {
 /*-------------------------------------------------------
 Menu Section 
  --------------------------------------------------------*/
+
 
 
 /*-------------------------------------------------------
@@ -545,6 +483,11 @@ Media Query
 	}
 
 
+
+
+
+
+
 	/* hero section Food MENU */
 
 	h1 {
@@ -552,31 +495,14 @@ Media Query
 		font-size: 55px;
 
 	}
-
-	.container p {
-		width: 50%;
-	}
-
-	.menu-wrapper {
-
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 6px
-	}
-
-	.img-frame {
-		margin: 0;
-		padding-top: 30px;
-
-	}
-
-	.img-frame:nth-child(even) {
-		background-color: rgb(247, 221, 239);
-	}
-
+	
 	/*-------------------------------------------------------
 
  --------------------------------------------------------*/
+
+
+
+
 
 
 }
