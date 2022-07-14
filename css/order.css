@@ -238,7 +238,7 @@ nav ul li a {
 
 }
 
-
+/* this style to show user in which landing page he is in by having the concern nav item font colored by green  */
 #order {
 	color: #0e9024;
 	font-size: 1.2rem;
@@ -284,11 +284,6 @@ h1 {
 
 
 }
-
-/*-------------------------------------------------------
-Menu Section 
- --------------------------------------------------------*/
-
 
 
 /*-------------------------------------------------------
