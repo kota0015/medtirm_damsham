@@ -152,7 +152,7 @@ body {
 	max-width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
-	
+
 }
 
 
@@ -239,7 +239,7 @@ nav ul li a {
 }
 
 
-#menunav{
+#menunav {
 	color: #0e9024;
 	font-size: 1.2rem;
 }
@@ -264,6 +264,8 @@ nav ul li:active {
 
 }
 
+/* hero section Food MENU */
+
 h1 {
 	font-family: dam;
 	color: var(--brand-name);
@@ -272,19 +274,23 @@ h1 {
 	text-align: center;
 	;
 }
-.container{
+
+.container {
 	padding: 0;
 	margin: 0;
 
 }
-.container p{
+
+.container p {
 	margin: auto;
 	padding-bottom: 30px;
-	width:400px;
+	width: 400px;
 	text-align: center;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.8em;
-	text-align: center;}
+	text-align: center;
+}
+
 .img-frame {
 	display: flex;
 	flex-direction: column;
@@ -294,33 +300,40 @@ h1 {
 	width: 100%;
 	margin: 2px 0;
 	padding: 20px 0;
-	/* background-color: #f995d6; */
+
 }
-.img-frame img{
+
+.img-frame img {
 	margin: 0 25px;
-	width:300px;
+	width: 300px;
 	height: 300px;
 	border: #138808 solid 3px;
 	background-color: azure;
 }
-.img-frame h3{
-	font-family:dam;
+.img-frame img:hover{
+	cursor:pointer;
+}
+
+.img-frame h3 {
+	font-family: dam;
 	font-size: 1.4em;
-	color:#490981;
+	color: #490981;
 	text-align: center;
 	margin-top: 5px;
-	
+
 }
-.menu-wrapper{
+
+.menu-wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.img-frame:nth-child(odd){
-	background-color: rgb(237, 148, 180);
+
+.img-frame:nth-child(odd) {
+	background-color: rgb(247, 221, 239);
 }
-	
+
 
 
 
@@ -424,6 +437,7 @@ Media Query
 
 @media (min-width:970px) {
 
+
 	.hero-imag-2 {
 		height: 300px;
 
@@ -441,6 +455,7 @@ Media Query
 
 
 	footer {
+		margin-top: 6px;
 		background-color: var(--brand-color);
 
 	}
@@ -532,26 +547,44 @@ Media Query
 		transform: translatex(0px) scale(1.1);
 	}
 
-	
 
 
-	.welcomarea p {
 
-		margin: 10px 10px;
+
+
+
+	/* hero section Food MENU */
+
+	h1 {
+
+		font-size: 55px;
+
+	}
+	.container p{
+		width: 50%;
 	}
 
-	.button-box {
-		margin-top: 30px;
+	.menu-wrapper{
+		
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap:6px
 	}
+	.img-frame{
+		margin:0;
+		padding-top:30px;
 
-
+	}
+	.img-frame:nth-child(even) {
+		background-color: rgb(247, 221, 239);
+	}
 	/*-------------------------------------------------------
-Menu Section
+
  --------------------------------------------------------*/
 
 
 
 
 
-	
+
 }
